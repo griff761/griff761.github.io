@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Berkadia Commercial Mortgage | University of Utah 
 
 profile:
   align: right
@@ -17,7 +17,7 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I am a Systems Engineer with a focus on automation and process improvement. Certified Jamf Associate with hands on experience managing 100+ Corporate Macs through Jamf. Senior Computer Engineering Undergraduate at the University of Utah.
+I am a Systems Engineer at Berkadia Commercial Mortgage as well as a Senior Computer Engineering Undergraduate at teh University of Utah. 
 
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
