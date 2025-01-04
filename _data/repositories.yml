@@ -1,6 +1,8 @@
 github_users:
   - griff761
 
+repo_description_lines_max: 2
+
 github_repos:
   - griff761/5780lab
   - griff761/gameboard-capstone
