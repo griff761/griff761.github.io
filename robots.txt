@@ -1,4 +1,1 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://griff761.github.io/sitemap.xml
+User-agent: * Disallow: Sitemap: https://alshedivat.github.io/sitemap.xml
