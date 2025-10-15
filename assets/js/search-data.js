@@ -14,7 +14,7 @@ ninja.data = [{
           description: "Please click the button above to view a PDF copy of my resume.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/assets/pdf/Resume.pdf";
+            window.location.href = "/cv/";
           },
         },{id: "nav-repositories",
           title: "repositories",
