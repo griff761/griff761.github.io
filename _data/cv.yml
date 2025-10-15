@@ -2,96 +2,71 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Griffin Rodgers
+    - name: Location
+      value: Salt Lake City, UT
     - name: Languages
-      value: English, German
+      value: English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Bachelor of Science, Computer Engineering
+      institution: University of Utah, Salt Lake City, UT
+      year: 2024
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Systems Engineer, Solutions
+      institution: Berkadia Commercial Mortgage
+      year: 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Managed the migration of the company's container registry from AWS ECR to JFrog Artifactory to improve artifact management, and triaged pod-level issues within the EKS cluster to ensure application stability.
+        - Migrated 5+ on-premises hosted applications to AWS EC2, simultaneously modernizing the OS and decommissioning 30+ on-premises servers.
+        - Implemented CI/CD pipelines in Azure DevOps for applications which were previously built manually by developers, decreasing release cycle time by 3 days.
+        - Developed 3 new and improved 2 existing Terraform modules to provision and manage cloud infrastructure resources in AWS, enhancing consistency and reducing manual effort.
+        - Optimized EC2 server deployment processes by creating a suite of AWS SSM documents and automations, achieving a 50% reduction in deployment time.
+    - title: Systems Engineer, Desktop
+      institution: Berkadia Commercial Mortgage
+      year: 2021 - 2025
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Provisioned and deployed Azure Virtual Desktop infrastructure using Terraform to replace aging Remote Desktop Services, netting a 90% decrease in log in/out times and 70% decrease in server footprint in on-premises data center.
+        - Re-architected the Jamf Cloud management system to manage over 100 MacBooks in the US & India, including a zero-touch deployment system that reduced deployment time by 20 minutes on average.
+        - Deployed Android Enterprise device management for personally owned devices through Microsoft Intune & Endpoint Manager to 1000+ mobile devices, as well as re-architected personal iOS device management in Intune, improving our compliance and security posture.
+    - title: Helpdesk Engineer
+      institution: Berkadia Commercial Mortgage
+      year: 2019 - 2021
       description:
+        - Provided HelpDesk support to employees in the US & India.
+        - Automated tasks using PowerShell (account creations and terminations), reducing time spent by over 50%.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
+- title: Certifications
+  type: list
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - AWS Certified Cloud Practitioner
+    - AWS Certified AI Practitioner
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Scripting & CLI
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - PowerShell, Bash, Z shell, Azure CLI, Git CLI
+    - title: Programming Languages
       items:
-        - Description 1.
-        - Description 2.
+        - C, C++, C#, Java, SQL, R, Python
+    - title: Infrastructure as Code
+      items:
+        - Terraform, AWS CloudFormation
+    - title: Platforms
+      items:
+        - Visual Studio, Microsoft SQL Server, Eclipse
+    - title: Technologies
+      items:
+        - Microsoft Entra ID, Intune, Exchange Admin Center, Active Directory, SCCM, Jamf Pro
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Maker projects (3D Printing, etc.), retro console modding, gaming.

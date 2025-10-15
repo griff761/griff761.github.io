@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /assets/pdf/Resume.pdf
+permalink: /cv/
 title: resume
 nav: true
 nav_order: 1
