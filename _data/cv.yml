@@ -14,14 +14,17 @@
     - title: Bachelor of Science, Computer Engineering
       institution: University of Utah, Salt Lake City, UT
       year: 2024
+      description:
+        - 'Projects: Built a full-stack IoT chessboard (MicroPython, Dart, Flutter); developed a C++/Qt pixel art editor using Scrum; engineered a networked C# tank game; created a C#/SQL learning management system; built a Linux shell from scratch in C.'
 
 - title: Experience
   type: time_table
   contents:
-    - title: Systems Engineer, Solutions
+    - title: Platform Engineer
       institution: Berkadia Commercial Mortgage
       year: 2025 - Present
       description:
+        - Implemented end-to-end Datadog observability for an AWS MWAA environment, providing job-level cost analysis for each EMR Spark run and generating automated right-sizing recommendations to optimize cluster spend.
         - Managed the migration of the company's container registry from AWS ECR to JFrog Artifactory to improve artifact management, and triaged pod-level issues within the EKS cluster to ensure application stability.
         - Migrated 5+ on-premises hosted applications to AWS EC2, simultaneously modernizing the OS and decommissioning 30+ on-premises servers.
         - Implemented CI/CD pipelines in Azure DevOps for applications which were previously built manually by developers, decreasing release cycle time by 3 days.
@@ -34,6 +37,7 @@
         - Provisioned and deployed Azure Virtual Desktop infrastructure using Terraform to replace aging Remote Desktop Services, netting a 90% decrease in log in/out times and 70% decrease in server footprint in on-premises data center.
         - Re-architected the Jamf Cloud management system to manage over 100 MacBooks in the US & India, including a zero-touch deployment system that reduced deployment time by 20 minutes on average.
         - Deployed Android Enterprise device management for personally owned devices through Microsoft Intune & Endpoint Manager to 1000+ mobile devices, as well as re-architected personal iOS device management in Intune, improving our compliance and security posture.
+        - Created 30+ pages of documentation on support processes for the Service Desk, reducing escalations by nearly 30%.
     - title: Helpdesk Engineer
       institution: Berkadia Commercial Mortgage
       year: 2019 - 2021
@@ -44,27 +48,24 @@
 - title: Certifications
   type: list
   contents:
-    - AWS Certified Cloud Practitioner
-    - AWS Certified AI Practitioner
+    - AWS Certified Cloud Practitioner (Jun. 2023)
+    - AWS Certified AI Practitioner (May 2025)
 
 - title: Technical Skills
   type: nested_list
   contents:
-    - title: Scripting & CLI
+    - title: Observability
       items:
-        - PowerShell, Bash, Z shell, Azure CLI, Git CLI
-    - title: Programming Languages
+        - Datadog
+    - title: Scripting & Languages
       items:
-        - C, C++, C#, Java, SQL, R, Python
+        - Python, PowerShell, Bash, C#, C++, SQL, Java, C, R
     - title: Infrastructure as Code
       items:
         - Terraform, AWS CloudFormation
-    - title: Platforms
+    - title: Cloud & Technologies
       items:
-        - Visual Studio, Microsoft SQL Server, Eclipse
-    - title: Technologies
-      items:
-        - Microsoft Entra ID, Intune, Exchange Admin Center, Active Directory, SCCM, Jamf Pro
+        - AWS, Azure, Microsoft Entra ID, Intune, Active Directory, SCCM, Jamf Pro
 
 - title: Other Interests
   type: list
