@@ -15,7 +15,7 @@
       institution: University of Utah, Salt Lake City, UT
       year: 2024
       description:
-        - 'Projects: Built a full-stack IoT chessboard (MicroPython, Dart, Flutter); developed a C++/Qt pixel art editor using Scrum; engineered a networked C# tank game; created a C#/SQL learning management system; built a Linux shell from scratch in C.'
+        - "Projects: Built a full-stack IoT chessboard (MicroPython, Dart, Flutter); developed a C++/Qt pixel art editor using Scrum; engineered a networked C# tank game; created a C#/SQL learning management system; built a Linux shell from scratch in C."
 
 - title: Experience
   type: time_table
