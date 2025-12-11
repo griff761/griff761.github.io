@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - griff761
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - griff761/5780lab
+  - griff761/gameboard-capstone
+  - griff761/ChessBrowser
+  - griff761/griff761.github.io

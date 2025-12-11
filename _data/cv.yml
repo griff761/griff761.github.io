@@ -2,96 +2,72 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Griffin Rodgers
+    - name: Location
+      value: Salt Lake City, UT
     - name: Languages
-      value: English, German
+      value: English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor of Science, Computer Engineering
+      institution: University of Utah, Salt Lake City, UT
+      year: 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - "Projects: Built a full-stack IoT chessboard (MicroPython, Dart, Flutter); developed a C++/Qt pixel art editor using Scrum; engineered a networked C# tank game; created a C#/SQL learning management system; built a Linux shell from scratch in C."
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Platform Engineer
+      institution: Berkadia Commercial Mortgage
+      year: 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Implemented end-to-end Datadog observability for an AWS MWAA environment, providing job-level cost analysis for each EMR Spark run and generating automated right-sizing recommendations to optimize cluster spend.
+        - Managed the migration of the company's container registry from AWS ECR to JFrog Artifactory to improve artifact management, and triaged pod-level issues within the EKS cluster to ensure application stability.
+        - Migrated 5+ on-premises hosted applications to AWS EC2, simultaneously modernizing the OS and decommissioning 30+ on-premises servers.
+        - Implemented CI/CD pipelines in Azure DevOps for applications which were previously built manually by developers, decreasing release cycle time by 3 days.
+        - Developed 3 new and improved 2 existing Terraform modules to provision and manage cloud infrastructure resources in AWS, enhancing consistency and reducing manual effort.
+        - Optimized EC2 server deployment processes by creating a suite of AWS SSM documents and automations, achieving a 50% reduction in deployment time.
+    - title: Systems Engineer, Desktop
+      institution: Berkadia Commercial Mortgage
+      year: 2021 - 2025
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Provisioned and deployed Azure Virtual Desktop infrastructure using Terraform to replace aging Remote Desktop Services, netting a 90% decrease in log in/out times and 70% decrease in server footprint in on-premises data center.
+        - Re-architected the Jamf Cloud management system to manage over 100 MacBooks in the US & India, including a zero-touch deployment system that reduced deployment time by 20 minutes on average.
+        - Deployed Android Enterprise device management for personally owned devices through Microsoft Intune & Endpoint Manager to 1000+ mobile devices, as well as re-architected personal iOS device management in Intune, improving our compliance and security posture.
+        - Created 30+ pages of documentation on support processes for the Service Desk, reducing escalations by nearly 30%.
+    - title: Helpdesk Engineer
+      institution: Berkadia Commercial Mortgage
+      year: 2019 - 2021
       description:
+        - Provided HelpDesk support to employees in the US & India.
+        - Automated tasks using PowerShell (account creations and terminations), reducing time spent by over 50%.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
+- title: Certifications
+  type: list
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - AWS Certified Cloud Practitioner (Jun. 2023)
+    - AWS Certified AI Practitioner (May 2025)
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Observability
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Datadog
+    - title: Scripting & Languages
       items:
-        - Description 1.
-        - Description 2.
+        - Python, PowerShell, Bash, C#, C++, SQL, Java, C, R
+    - title: Infrastructure as Code
+      items:
+        - Terraform, AWS CloudFormation
+    - title: Cloud & Technologies
+      items:
+        - AWS, Azure, Microsoft Entra ID, Intune, Active Directory, SCCM, Jamf Pro
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Maker projects (3D Printing, etc.), retro console modding, gaming.

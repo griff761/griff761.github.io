@@ -2,33 +2,26 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Berkadia Commercial Mortgage | University of Utah
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>6955 S Union Park Ctr</p>
+    <p>Suite 450</p>
+    <p>Midvale, UT 84047</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Platform Engineer at Berkadia Commercial Mortgage, specializing in cloud infrastructure and automation. My interests include cloud device management, process automation, and bridging the gap between developers and IT. With 5 years of experience in IT, I have grown from a Summer IT Intern to my current role.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+In my current role, I focus on enhancing cloud infrastructure and application stability. I've managed container registry migrations from AWS ECR to JFrog Artifactory, migrated on-premise applications to AWS EC2, and implemented CI/CD pipelines in Azure DevOps to accelerate release cycles. I also develop and improve Terraform modules to provision and manage AWS resources, and I've created AWS SSM automations that have cut EC2 deployment times in half. Previously, I designed and deployed an Azure Virtual Desktop environment using Terraform and re-architected our Jamf Cloud and Microsoft Intune systems to improve device management and security.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I graduated from the University of Utah with a BS in Computer Engineering in December 2024. My education has granted me experience in low-level programming (both desktop applications and embedded systems) in languages such as C, as well as high-level programming in Java, C++, C#, Python, and more. Being a Computer Engineer, I also have experience with circuit design.
+
+My hobbies include maker projects (i.e. 3D Printing, etc...), retro console modding, gaming, and hanging out with my wife and two cats Ada and Ralphie.
