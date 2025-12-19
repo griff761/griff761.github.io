@@ -43,7 +43,7 @@
         - "<b>Security Architecture:</b> Architected a secure artifact migration strategy, intercepting a critical vulnerability where auth tokens were exposed in Docker layers. Re-engineered global pipeline templates to utilize BuildKit secret mounts, standardizing secure build processes for all engineering value streams."
         - "<b>FinOps & Observability:</b> Engineered end-to-end Datadog observability for AWS MWAA (Airflow), delivering job-level cost analysis for EMR Spark clusters. Automated right-sizing recommendations that identified significant monthly cloud spend reductions."
         - "<b>IaC Standardization:</b> Developed and governed centralized Terraform modules to standardize resource provisioning across the enterprise, reducing code duplication and enforcing secure configurations."
-        - "<b>DevEx & Automation:</b> Optimized the \"Inner Loop\" for developers by implementing Azure DevOps pipelines and AWS SSM automations, achieving a 50% reduction in deployment times and shortening release cycles by 3 days."
+        - '<b>DevEx & Automation:</b> Optimized the "Inner Loop" for developers by implementing Azure DevOps pipelines and AWS SSM automations, achieving a 50% reduction in deployment times and shortening release cycles by 3 days.'
     - title: Systems Engineer, Desktop
       institution: Berkadia Commercial Mortgage
       year: 2021 – 2025
